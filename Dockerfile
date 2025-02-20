@@ -43,4 +43,4 @@ RUN chmod 777 /var/www/html/uploads/
 RUN mv "$PHP_INI_DIR/php.ini-development" "$PHP_INI_DIR/php.ini"
 
 # Expose the port
-EXPOSE 8080
+EXPOSE 8080 
